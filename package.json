@@ -1,0 +1,28 @@
+{
+  "name": "airbooking-backend",
+  "version": "1.0.0",
+  "description": "\"# airbooking-backend\"",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgodding/airbooking-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgodding/airbooking-backend/issues"
+  },
+  "homepage": "https://github.com/rgodding/airbooking-backend#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.1",
+    "nodemon": "^3.1.10"
+  }
+}
